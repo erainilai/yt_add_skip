@@ -3,7 +3,7 @@ import time
 skip_ad_wait_time = 0.5  # in seconds
 
 CURSOR_LOC_FINDER = 1           #To know the Cursor Location, Keep this as 1. To Move the cursor to location, Keep this as 0.
-TEST              = not(CURSOR_LOC_FINDER = 1)
+TEST              = not(CURSOR_LOC_FINDER == 1)
 
 for i in range(20):
     time.sleep(skip_ad_wait_time)
@@ -20,3 +20,4 @@ for i in range(20):
         print(f"Skipping add at: {skip_button_location}")
         time.sleep(skip_ad_wait_time)
         pyautogui.click(skip_button_location)
+
