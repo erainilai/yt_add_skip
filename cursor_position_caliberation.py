@@ -2,9 +2,8 @@ import pyautogui, collections
 import time
 skip_ad_wait_time = 0.5  # in seconds
 
-
 CURSOR_LOC_FINDER = 1           #To know the Cursor Location, Keep this as 1. To Move the cursor to location, Keep this as 0.
-TEST              = not(CURSON_LOC_FINDER = 1)
+TEST              = not(CURSOR_LOC_FINDER = 1)
 
 for i in range(20):
     time.sleep(skip_ad_wait_time)

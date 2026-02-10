@@ -2,6 +2,5 @@ Pillow
 pyautogui
 pyaudio
 pvporcupine
-struct
 pyttsx3
 pydub
