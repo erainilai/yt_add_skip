@@ -9,7 +9,7 @@ import time
 Point                   = collections.namedtuple("Point", "x y")
 
 ############################# INPUTs needed #############################
-ACCESS_KEY              = "bIkB2IjsErO4deoE5XPEe5OvMQhzyzjniwiSpjNQYiXZ023PFywuYw=="                    #Get Access Key from porcupine site
+ACCESS_KEY              = ""                    #Get Access Key from porcupine site
 skip_button_location    = Point(x=821, y=533)   #Location of Skip-Ad button gathered from cursor_position_caliberation.py script for YOUR DEVICE
 #########################################################################
 
